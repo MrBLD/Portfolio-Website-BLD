@@ -1,0 +1,19 @@
+{
+    "coursesName": [
+        {
+            "headline": "Course 1",
+            "description": "Click the button to listen on Spotiwhy app.",
+            "image": "01.jpg"
+        },
+        {
+            "headline": "Course 2",
+            "description": "A Project for TnP Auto Resume Builder",
+            "image": "02.jpg"
+        },
+        {
+            "headline": "Course 3",
+            "description": "Click the button to listen on Spotiwhy app.",
+            "image": "01.jpg"
+        }
+    ]
+}

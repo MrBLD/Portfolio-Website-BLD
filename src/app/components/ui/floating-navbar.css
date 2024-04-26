@@ -1,0 +1,50 @@
+*:before,
+*:after {
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  line-height: 40px;
+  color: black;
+}
+
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 125px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+}
+
+.btn-1 {
+    color: tint(#5918df);
+  border-radius:10px;
+    position: relative; /* Add relative positioning to establish a containing block */
+    text-align: center;
+
+    &:before {
+      content: '';
+      position: absolute; /* Apply absolute positioning */
+      top: 0;
+      right: -50px;
+      bottom: 0;
+      left: 0;
+      border-right: 50px solid transparent;
+      border-bottom: 80px solid shade(#5918df, 40%);
+      transform: translateX(-100%);
+    }
+  
+    &:hover {
+      color: tint(#5918df, 75%);
+  
+      &:before {
+        transform: translateX(0);
+      }
+    }
+  }
+  
