@@ -4,7 +4,7 @@ import { BackgroundBeams } from './ui/background-beams'
 
 function Hero() {
   return (
-    <div className='flex flex-col pt-16'>
+    <div className='relative flex flex-col pt-16'>
       <div className='flex flex-row'>
         {/* Hi_Bhaskar.gif */}
         <div className='md:px-10 md:py-2 lg:px-20 overflow-hidden'>
