@@ -5,11 +5,12 @@ import { TracingBeam } from "@/app/components/ui/tracing-beam";
 function AboutMe() {
   return (
     // <TracingBeam className="">
-      <div id='AboutMe' className='flex z-10 w-fit mt-8 ml-16'>
+      <div id='AboutMe' className='flex z-10 w-fit mt-8 '>
         {/* Name and Paragraph */}
         <div className='flex-col mt-6'>
-          <h1 className='relative z-10 text-sm md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold'>BHASKAR LAL DAS</h1>
-          <p className='text-neutral-500 max-w-lg mx-auto my-2 text-2xl text-center relative z-10'>Lorem Ipsum Dolor Sit duis est minim proident non nisi velit non consectetur. Esse adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur fugiat Lorem aute sit ullamco. </p>
+          <h1 className='relative z-10 text-lg text-purple-700 font-sans mb-5'>Start /&gt;</h1>
+          <h1 className='relative z-10 text-sm md:text-5xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold'>BHASKAR LAL DAS</h1>
+          <p className='text-neutral-500 max-w-lg sm:mx-auto my-2 sm:text-2xl text-center relative z-10'>Lorem Ipsum Dolor Sit duis est minim proident non nisi velit non consectetur. Esse adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur fugiat Lorem aute sit ullamco. </p>
         </div>
 
         {/* Image */}

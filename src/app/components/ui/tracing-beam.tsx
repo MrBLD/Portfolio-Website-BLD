@@ -29,7 +29,7 @@ export const TracingBeam = ({ children, className, }: { children: React.ReactNod
   );
 
   return (
-    <motion.div ref={ref} className={cn("relative w-full ml-52 h-full", className)}>
+    <motion.div ref={ref} className={cn("relative w-fit sm:ml-48 h-full", className)}>
       <div className="absolute -left-4 md:-left-20 top-3">
         <motion.div transition={{ duration: 0.2, delay: 0.5, }}
           animate={{ boxShadow: scrollYProgress.get() > 0 ? "none" : "rgba(0, 0, 0, 0.24) 0px 3px 8px", }}

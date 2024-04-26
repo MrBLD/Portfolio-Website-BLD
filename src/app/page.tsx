@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
         <Hero />
-        <TracingBeam className="">
+        <TracingBeam>
           <AboutMe />
           <Projects />
           <Courses/>

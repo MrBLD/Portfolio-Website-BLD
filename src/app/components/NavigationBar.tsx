@@ -62,7 +62,7 @@ export function NavigationBar() {
   ];
 
   return (
-    <div className="relative  w-full">
+    <div className="relative w-full mt-2">
       <FloatingNav navItems={navItems}/>
     </div>
   );

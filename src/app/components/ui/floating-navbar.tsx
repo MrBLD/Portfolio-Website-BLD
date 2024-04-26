@@ -9,7 +9,7 @@ import {
 import { cn } from "@/app/utils/cn";
 import Link from "next/link";
 
-import './floating-navbar.css'
+// import './floating-navbar.css'
 
 export const FloatingNav = ({
   navItems,
