@@ -10,7 +10,7 @@ function AboutMe() {
         <div className='flex-col mt-6'>
           <h1 className='relative z-10 text-lg text-purple-700 font-sans mb-5 -ml-20'>Start /&gt;</h1>
           <h1 className='relative z-10 text-sm md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold'>BHASKAR LAL DAS</h1>
-          <p className='text-neutral-500 max-w-lg sm:mx-auto my-2 sm:text-3xl text-center relative z-10'>Lorem Ipsum Dolor Sit duis est minim proident non nisi velit non consectetur. Esse adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur fugiat Lorem aute sit ullamco. </p>
+          <p className='text-neutral-500 max-w-lg sm:mx-auto my-2 sm:text-3xl text-center relative z-10'>I am a detail-oriented, disciplined and fast learner constantly seeking to expand my technical expertise. Motivated, focused, and adept at problem-solving, eagerly embracing new challenges while continuously pursuing personal and professional growth. </p>
         </div>
 
         {/* Image */}
