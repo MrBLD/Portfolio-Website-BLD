@@ -13,7 +13,7 @@ export default function Home() {
         <TracingBeam>
           <AboutMe />
           <Projects />
-          <Courses/>
+          {/* <Courses/> */}
           <Contact />
         </TracingBeam>
     </>

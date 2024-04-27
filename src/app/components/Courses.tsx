@@ -1,9 +1,6 @@
 'use client'
 import React from 'react'
-import { TracingBeam } from "@/app/components/ui/tracing-beam";
-import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
-import Link from "next/link";
 import courses from "@/app/data/coursesDetail.json"
 
 function Courses() {
@@ -12,7 +9,7 @@ function Courses() {
       <h1 className=' relative z-10 text-lg text-purple-600 font-sans -mb-20 mt-5 grid grid-cols-2'>Courses /&gt;</h1>
     <div id='Courses' className='flex flex-col items-center z-10 w-full mt-8 ml-16'>
       {courses.coursesName.map((item, index) => (
-      <CardContainer>
+      <CardContainer key={`card-${index}`}>
       <CardBody key={`content-${index}`} className='flex flex-row relative rounded-xl w-fit -px-8 border-2 border-purple-900'>
         <CardItem translateZ="20" translateX="-10" className=' rounded-xl -ml-40 flex flex-col z-[11] justify-center -mr-12'>
           <p className=''>{item.description}</p>
