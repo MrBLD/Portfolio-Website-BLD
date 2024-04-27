@@ -13,7 +13,7 @@ function Contact() {
       <h2 className="mt-3 pt-3 mb-5 text-3xl">Find me on:</h2>
       {contactDetail.contacts.map((item, index) => (
         <div className="w-fit mb-2 grid grid-cols-3" key={`content-${index}`}>
-          <a href={item.link} className='text-xl my-[2px] mx-0 whitespace-nowrap text-green-600'>{item.name}</a>
+          <a href={item.link} className='text-xl my-[2px] mx-0 whitespace-nowrap text-green-600' key={`contact-${index}`}>{item.name}</a>
         </div>
       ))}
       {/* </div> */}
