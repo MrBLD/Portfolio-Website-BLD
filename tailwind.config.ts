@@ -20,9 +20,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      textStroke: {
+        '2': '2px',
+      },
+      textStrokeColor: {
+        'black': '#000',
+      },
     },
+    },
+    variants: {
+    extend: {},
   },
-  plugins: [require("daisyui"),addVariablesForColors,],
+  plugins: [require("daisyui"),addVariablesForColors,addUtilities],
   daisyui: {
     // themes: ["light","dark","cupcake","bumblebee","emerald","corporate","synthwave","retro","cyberpunk","valentine","halloween","garden","forest","aqua","lofi","pastel","fantasy","wireframe","black","luxury","dracula","cmyk","autumn","business","acid","lemonade","night","coffee","winter","dim","nord","sunset",],
     themes: true,
@@ -44,6 +53,22 @@ function addVariablesForColors({ addBase, theme }: any) {
   addBase({
     ":root": newVars,
   });
+}
+function addUtilities({ addUtilities }: { addUtilities: any }) {
+  const newUtilities = {
+    '.text-stroke': {
+      '-webkit-text-stroke-width': '1px',
+      '-webkit-text-stroke-color': '#581C87',
+      '-webkit-text-fill-color': '#fff',
+    },
+    '.text-stroke-2': {
+      'text-stroke-width': '2px',
+    },
+    '.text-stroke-black': {
+      'text-stroke-color': '#000',
+    },
+  }
+  addUtilities(newUtilities)
 }
 
 export default config;
