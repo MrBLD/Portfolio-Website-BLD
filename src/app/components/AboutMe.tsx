@@ -17,10 +17,10 @@ function AboutMe() {
         {/* Image */}
         <div className="relative w-30 h-30 m-8 p-8 md:w-60 md:h-60 lg:w-96 lg:h-96 flex rounded-full cursor-pointer overflow-clip transition-all duration-700 flipcard">
           <div className="absolute inset-0 w-full h-full transition-all duration-100 delay-200 z-20 hover:opacity-0">
-            <Image src="images/01.jpg" alt='About Profile image01' />
+            <Image src="/images/01.jpg" alt='About Profile image01' width={100} height={100} />
           </div>
           <div className="absolute inset-0 w-full h-full transition-all z-10 flipcard-back">
-            <Image src="images/02.jpg" alt='About profile image02' />
+            <Image src="/images/02.jpg" alt='About profile image02' width={100} height={100} />
           </div>
         </div>
       </div>
