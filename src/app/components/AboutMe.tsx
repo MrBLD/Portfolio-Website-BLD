@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { TracingBeam } from "@/app/components/ui/tracing-beam";
+import Image from 'next/image';
 
 function AboutMe() {
   return (
@@ -16,10 +17,10 @@ function AboutMe() {
         {/* Image */}
         <div className="relative w-30 h-30 m-8 p-8 md:w-60 md:h-60 lg:w-96 lg:h-96 flex rounded-full cursor-pointer overflow-clip transition-all duration-700 flipcard">
           <div className="absolute inset-0 w-full h-full transition-all duration-100 delay-200 z-20 hover:opacity-0">
-            <img src="images/01.jpg" />
+            <Image src="images/01.jpg" alt='About Profile image01' />
           </div>
           <div className="absolute inset-0 w-full h-full transition-all z-10 flipcard-back">
-            <img src="images/02.jpg" />
+            <Image src="images/02.jpg" alt='About profile image02' />
           </div>
         </div>
       </div>

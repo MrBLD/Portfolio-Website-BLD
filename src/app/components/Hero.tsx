@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import { BackgroundBeams } from './ui/background-beams'
+import Image from 'next/image'
 
 function Hero() {
   return (
@@ -8,7 +9,7 @@ function Hero() {
       <div className='flex flex-row'>
         {/* Hi_Bhaskar.gif */}
         <div className='md:px-10 md:py-2 lg:px-20 overflow-hidden'>
-          <img className="display" src="images/Hi_Bhaskar_dark.gif" alt='Hi/Hello/Welcome' />
+          <Image className="display" src="images/Hi_Bhaskar_dark.gif" alt='Hi/Hello/Welcome' />
           <div className='text-3xl font-semibold align-middle items-center'>
             My name is <span className='text-4xl text-purple-800 dark:text-purple-600'>Bhaskar Lal Das</span><br /> 
             I am a <span className=' text-4xl text-purple-800 dark:text-purple-600'>Full Stack Developer</span> and <span className=' text-4xl text-purple-800 dark:text-purple-600'>Data Scientist</span>
@@ -20,10 +21,10 @@ function Hero() {
           <div className="relative z-20 hidden md:flex">
             <div className="relative w-20 h-20 md:w-60 mr-4 md:h-60 lg:w-96 lg:h-96 rounded-2xl cursor-pointer overflow-hidden transition-all duration-700 flipcard">
               <div className="absolute inset-0 w-full h-full transition-all duration-100 delay-200 z-20 hover:opacity-0">
-                <img src="images/01.jpg" />
+                <Image src="images/01.jpg" alt='profile image01' />
               </div>
               <div className="absolute inset-0 w-full h-full transition-all z-10 flipcard-back">
-                <img src="images/02.jpg" />
+                <Image src="images/02.jpg" alt='profile image02' />
               </div>
             </div>
           </div>
