@@ -3,37 +3,37 @@
         {
             "headline": "Sony+IITP Recommendation Model",
             "description": "Efficacy of LLM in Predicting Hindi Movies' Attributes: A Comprehensive Survey and Content-Based Analysis",
-            "image": "/Projects/Sony_IITP.png"
+            "image": "/Projects/Sony_IITP.svg"
         },
         {
             "headline": "NITAP TnP Cell Website with LLM",
             "description": "Developed Full Stack website utilizing LLM for automated Resume building, placements notification and guidance for Institute, on NEXT-JS Framework on Firebase Database.",
-            "image": "/Projects/TnP.png"
+            "image": "/Projects/TnP.svg"
         },
         {
             "headline": "NLU-Driven Real-Time HR Data Query System",
             "description": "Seamless natural language querying of real-time HR data on an Oracle Server, using Gemini API, integrated the system on web interface.",
-            "image": "/Projects/IOCL.png"
+            "image": "/Projects/IOCL.svg"
         },
         {
             "headline": "Multimodal Conversational AI with Emotional Intelligence",
             "description": "'Visual FusionBot': Integrating computer vision, NLP, and Generative AI for human-like therapeutic conversations(23icbai642). Authored and presented conference paper at 10th International Conference on Business Analytics and Intelligence, 2023.",
-            "image": "/Projects/FusionBot.png"
+            "image": "/Projects/FusionBot.svg"
         },
         {
             "headline": "Predictive Caption Generation with CNN-LSTM Neural Network",
             "description": "Utilized VGG16 as a Computer Vision model for feature extraction from images, integrating it with an LSTM network for generating captions. Achieved BLEU-1 Score: 0.527 and BLEU-2 Score: 0.301.",
-            "image": "/Projects/Image_captioning.png"
+            "image": "/Projects/Image_captioning.svg"
         },
         {
             "headline": "NITAP Finance Department Website",
             "description": "Developed Full Stack large scale Finance Department website from scratch for security with backend on Django Framework SQLite Database.",
-            "image": "/Projects/NITAPFinanceDept.png"
+            "image": "/Projects/NITAPFinanceDept.svg"
         },
         {
             "headline": "VLSI Design Engineering",
             "description": "Designed novel 16-bit Hexadecimal IC Lock System on Industry suite Cadence.",
-            "image": "/Projects/VLSI.png"
+            "image": "/Projects/VLSI.svg"
         },
         {
             "headline": "Automated Verilog Code Generation",
@@ -43,7 +43,7 @@
         {
             "headline": "Stock Performance Analysis and Forecasting",
             "description": "Developed Web-Scraping module and ML models on Time Series, compared performances and derived insights.",
-            "image": "/Projects/Stocks.png"
+            "image": "/Projects/Stocks.svg"
         }
     ]
 }

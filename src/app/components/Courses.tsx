@@ -16,7 +16,7 @@ function Courses() {
           <p className=''>{item.description}</p>
         </CardItem>
         <CardItem translateZ="50" translateX='30' className='rounded-xl z-10 flex w-20 h-20 md:w-60 md:h-60 lg:w-96 lg:h-96 mr-8 bg-green-400 overflow-hidden'>
-          <div className='w-full h-full'><Image src={`/images/${item.image}`} alt="Album" width={100} height={100} /></div>
+          <div className='w-full h-full'><Image src={`/images/${item.image}`} alt="Album" width={1000} height={1000} /></div>
         </CardItem>
         <CardItem translateZ="20" translateX='-15' className='flex flex-col-reverse font-semibold z-10 p-2'>
           <h2>{item.headline}</h2>
